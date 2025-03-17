@@ -1,0 +1,141 @@
+[2025-03-17T14:32:04.904-0400] {processor.py:186} INFO - Started process (PID=31925) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:32:04.905-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:32:04.905-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:32:04.905-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:32:04.908-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:32:04.974-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:32:04.974-0400] {override.py:1912} INFO - Created Permission View: can edit on DAG:tutorial
+[2025-03-17T14:32:04.977-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:32:04.977-0400] {override.py:1912} INFO - Created Permission View: can read on DAG:tutorial
+[2025-03-17T14:32:04.979-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:32:04.979-0400] {override.py:1912} INFO - Created Permission View: can delete on DAG:tutorial
+[2025-03-17T14:32:04.982-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:32:04.982-0400] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:tutorial
+[2025-03-17T14:32:04.984-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:32:04.984-0400] {override.py:1912} INFO - Created Permission View: can create on DAG Run:tutorial
+[2025-03-17T14:32:04.986-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:32:04.986-0400] {override.py:1912} INFO - Created Permission View: can read on DAG Run:tutorial
+[2025-03-17T14:32:04.988-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:32:04.988-0400] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:tutorial
+[2025-03-17T14:32:04.988-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:32:04.988-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:32:04.993-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:32:04.993-0400] {dag.py:3262} INFO - Creating ORM DAG for tutorial
+[2025-03-17T14:32:04.999-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:32:04.999-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:32:05.005-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.102 seconds
+[2025-03-17T14:33:47.967-0400] {processor.py:186} INFO - Started process (PID=32097) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:33:47.968-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:33:47.968-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:33:47.968-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:33:47.972-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:33:48.010-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:33:48.010-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:33:48.020-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:33:48.020-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:33:48.029-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.063 seconds
+[2025-03-17T14:34:52.817-0400] {processor.py:186} INFO - Started process (PID=32183) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:34:52.818-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:34:52.819-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:34:52.819-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:34:52.822-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:34:52.860-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:34:52.860-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:34:52.869-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:34:52.869-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:34:52.876-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.061 seconds
+[2025-03-17T14:36:00.740-0400] {processor.py:186} INFO - Started process (PID=32266) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:36:00.741-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:36:00.741-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:36:00.741-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:36:00.744-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:36:00.778-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:36:00.778-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:36:00.786-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:36:00.786-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:36:00.794-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.055 seconds
+[2025-03-17T14:37:05.910-0400] {processor.py:186} INFO - Started process (PID=32350) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:37:05.911-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:37:05.911-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:37:05.911-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:37:05.914-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:37:05.949-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:37:05.949-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:37:05.957-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:37:05.957-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:37:05.963-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.055 seconds
+[2025-03-17T14:38:08.791-0400] {processor.py:186} INFO - Started process (PID=32449) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:38:08.791-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:38:08.792-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:38:08.792-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:38:08.795-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:38:08.829-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:38:08.829-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:38:08.837-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:38:08.837-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:38:08.844-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.054 seconds
+[2025-03-17T14:39:08.453-0400] {processor.py:186} INFO - Started process (PID=32538) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:39:08.453-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:39:08.454-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:39:08.454-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:39:08.457-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:39:08.491-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:39:08.491-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:39:08.499-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:39:08.499-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:39:08.505-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.054 seconds
+[2025-03-17T14:40:11.406-0400] {processor.py:186} INFO - Started process (PID=32652) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:40:11.407-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:40:11.407-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:40:11.407-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:40:11.410-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:40:11.446-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:40:11.446-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:40:11.453-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:40:11.453-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:40:11.460-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.055 seconds
+[2025-03-17T14:41:13.854-0400] {processor.py:186} INFO - Started process (PID=32741) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:41:13.854-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:41:13.855-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:41:13.855-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:41:13.858-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:41:13.893-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:41:13.893-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:41:13.899-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:41:13.899-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:41:13.905-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.053 seconds
+[2025-03-17T14:42:18.305-0400] {processor.py:186} INFO - Started process (PID=32835) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:42:18.306-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:42:18.306-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:42:18.306-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:42:18.309-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:42:18.344-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:42:18.344-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:42:18.351-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:42:18.351-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:42:18.358-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.054 seconds
+[2025-03-17T14:43:24.852-0400] {processor.py:186} INFO - Started process (PID=32913) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:43:24.852-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:43:24.853-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:43:24.853-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:43:24.856-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:43:24.890-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:43:24.890-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:43:24.898-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:43:24.898-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:43:24.906-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.056 seconds
+[2025-03-17T14:44:32.379-0400] {processor.py:186} INFO - Started process (PID=32995) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:44:32.380-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:44:32.380-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:44:32.380-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:44:32.384-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:44:32.421-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:44:32.421-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:44:32.428-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:44:32.428-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:44:32.436-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.059 seconds
+[2025-03-17T14:45:42.046-0400] {processor.py:186} INFO - Started process (PID=33103) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:45:42.046-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:45:42.047-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:45:42.047-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:45:42.050-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:45:42.087-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:45:42.087-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:45:42.094-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:45:42.094-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:45:42.101-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.057 seconds
+[2025-03-17T14:46:50.243-0400] {processor.py:186} INFO - Started process (PID=33183) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:46:50.244-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:46:50.244-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:46:50.244-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:46:50.247-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:46:50.282-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:46:50.282-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:46:50.290-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:46:50.289-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:46:50.296-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.054 seconds
+[2025-03-17T14:47:58.307-0400] {processor.py:186} INFO - Started process (PID=33271) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:47:58.308-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:47:58.308-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:47:58.308-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:47:58.311-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:47:58.345-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:47:58.345-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:47:58.351-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:47:58.351-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:47:58.358-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.052 seconds
+[2025-03-17T14:49:04.908-0400] {processor.py:186} INFO - Started process (PID=33379) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:49:04.910-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:49:04.910-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:49:04.910-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:49:04.915-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:49:04.953-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:49:04.953-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:49:04.960-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:49:04.960-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:49:04.993-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.086 seconds
+[2025-03-17T14:50:09.671-0400] {processor.py:186} INFO - Started process (PID=33467) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:50:09.671-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:50:09.672-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:50:09.672-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:50:09.675-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:50:09.709-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:50:09.709-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:50:09.715-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:50:09.715-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:50:09.721-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.052 seconds
+[2025-03-17T14:51:14.611-0400] {processor.py:186} INFO - Started process (PID=33609) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:51:14.612-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:51:14.612-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:51:14.612-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:51:14.616-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:51:14.653-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:51:14.653-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:51:14.660-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:51:14.660-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:51:14.667-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.058 seconds
+[2025-03-17T14:52:22.000-0400] {processor.py:186} INFO - Started process (PID=33841) to work on /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:52:22.000-0400] {processor.py:914} INFO - Processing file /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2025-03-17T14:52:22.001-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:52:22.001-0400] {dagbag.py:588} INFO - Filling up the DagBag from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:52:22.004-0400] {processor.py:925} INFO - DAG(s) 'tutorial' retrieved from /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py
+[2025-03-17T14:52:22.041-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:52:22.041-0400] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-17T14:52:22.051-0400] {logging_mixin.py:190} INFO - [2025-03-17T14:52:22.051-0400] {dag.py:4180} INFO - Setting next_dagrun for tutorial to 2025-03-16 00:00:00+00:00, run_after=2025-03-17 00:00:00+00:00
+[2025-03-17T14:52:22.061-0400] {processor.py:208} INFO - Processing /Users/nidhipatel/ApacheAirflow_Tutorial/py_env/lib/python3.12/site-packages/airflow/example_dags/tutorial.py took 0.063 seconds
