@@ -1,0 +1,20 @@
+[2025-03-19T22:26:13.910+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-19T22:26:19.462+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_taskflow_Api_v2.get_name scheduled__2025-03-10T00:00:00+00:00 [queued]>
+[2025-03-19T22:26:21.811+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_taskflow_Api_v2.get_name scheduled__2025-03-10T00:00:00+00:00 [queued]>
+[2025-03-19T22:26:21.920+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 6
+[2025-03-19T22:26:24.351+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): get_name> on 2025-03-10 00:00:00+00:00
+[2025-03-19T22:26:25.708+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1282) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-19T22:26:25.770+0000] {standard_task_runner.py:72} INFO - Started process 1347 to run task
+[2025-03-19T22:26:26.435+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dag_with_taskflow_Api_v2', 'get_name', 'scheduled__2025-03-10T00:00:00+00:00', '--job-id', '3356', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_taskflow_api.py', '--cfg-path', '/tmp/tmptanfpj66']
+[2025-03-19T22:26:26.859+0000] {standard_task_runner.py:105} INFO - Job 3356: Subtask get_name
+[2025-03-19T22:26:32.376+0000] {job.py:229} INFO - Heartbeat recovered after 23.35 seconds
+[2025-03-19T22:26:34.361+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_with_taskflow_Api_v2.get_name scheduled__2025-03-10T00:00:00+00:00 [running]> on host 63fd4b143e0a
+[2025-03-19T22:26:36.613+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_with_taskflow_Api_v2' AIRFLOW_CTX_TASK_ID='get_name' AIRFLOW_CTX_EXECUTION_DATE='2025-03-10T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-10T00:00:00+00:00'
+[2025-03-19T22:26:37.378+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-19T22:26:38.694+0000] {python.py:240} INFO - Done. Returned value was: {'first_name': 'John', 'last_name': 'Doe'}
+[2025-03-19T22:26:43.176+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-19T22:26:43.221+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dag_with_taskflow_Api_v2, task_id=get_name, run_id=scheduled__2025-03-10T00:00:00+00:00, execution_date=20250310T000000, start_date=20250319T222619, end_date=20250319T222643
+[2025-03-19T22:26:47.837+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-19T22:26:50.498+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-19T22:26:50.951+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2025-03-19T22:26:51.540+0000] {standard_task_runner.py:217} INFO - Process not found (most likely exited), stop collecting metrics

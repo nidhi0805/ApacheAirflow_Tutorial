@@ -1,0 +1,23 @@
+[2025-03-19T22:24:48.846+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-19T22:24:52.962+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_with_catchup_and_backfill.task_1 scheduled__2023-12-17T00:00:00+00:00 [queued]>
+[2025-03-19T22:24:53.135+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_with_catchup_and_backfill.task_1 scheduled__2023-12-17T00:00:00+00:00 [queued]>
+[2025-03-19T22:24:53.142+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 6
+[2025-03-19T22:24:55.812+0000] {taskinstance.py:2890} INFO - Executing <Task(BashOperator): task_1> on 2023-12-17 00:00:00+00:00
+[2025-03-19T22:24:55.935+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=950) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-19T22:24:55.953+0000] {standard_task_runner.py:72} INFO - Started process 982 to run task
+[2025-03-19T22:24:55.938+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dag_with_catchup_and_backfill', 'task_1', 'scheduled__2023-12-17T00:00:00+00:00', '--job-id', '3266', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_catchup_and_backfill.py', '--cfg-path', '/tmp/tmpk58l46hi']
+[2025-03-19T22:24:55.973+0000] {standard_task_runner.py:105} INFO - Job 3266: Subtask task_1
+[2025-03-19T22:24:57.841+0000] {task_command.py:467} INFO - Running <TaskInstance: dag_with_catchup_and_backfill.task_1 scheduled__2023-12-17T00:00:00+00:00 [running]> on host 63fd4b143e0a
+[2025-03-19T22:25:02.980+0000] {job.py:229} INFO - Heartbeat recovered after 16.96 seconds
+[2025-03-19T22:25:05.180+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dag_with_catchup_and_backfill' AIRFLOW_CTX_TASK_ID='task_1' AIRFLOW_CTX_EXECUTION_DATE='2023-12-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-17T00:00:00+00:00'
+[2025-03-19T22:25:05.238+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-19T22:25:05.737+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-03-19T22:25:05.766+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo ']
+[2025-03-19T22:25:06.045+0000] {subprocess.py:99} INFO - Output:
+[2025-03-19T22:25:06.086+0000] {subprocess.py:106} INFO - 
+[2025-03-19T22:25:06.097+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-03-19T22:25:06.746+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-19T22:25:06.775+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=dag_with_catchup_and_backfill, task_id=task_1, run_id=scheduled__2023-12-17T00:00:00+00:00, execution_date=20231217T000000, start_date=20250319T222452, end_date=20250319T222506
+[2025-03-19T22:25:08.900+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-19T22:25:09.092+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-19T22:25:09.147+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
